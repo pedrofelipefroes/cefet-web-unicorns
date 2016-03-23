@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial';
+    font-size: 14px;
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    font-weight: 100;
+}
+
+h1, h2 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h3 {
+    font-family: 'Times';
+    font-size: 18px;
+    font-weight: 100;
+}
+
+/* IDs */
+
+#cabecalho {
+    background-color: #6175f0;
+    color: white;
+    padding-bottom: 6px; /* 19px - 13px */
+    padding-left: 34px;
+    padding-top: 9px; /* 31px - 20px */
+}
+
+#hoje {
+    background-color: #f8cef7;
+    border: 1px solid;
+    border-color: #ff56fb;
+    float: right;
+    padding-bottom: 13px; /* 30px - 17px */
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 16px; /* 20px - 4px */
+    text-align: center;
+    width: 405px;
+}
+
+#hoje img {
+    height: 112px;
+    width: 112px;
+}
+
+#musica {
+    padding-left: 12px;
+}
+
+#verdade > h2 {
+    padding-top: 11px;
+}
+
+#verdade > p {
+    padding-left: 13px;
+}
+
+#verdade img {
+    float: left;
+    height: auto;
+    padding-right: 13px;
+    width: 310px;
+}
+
+/* CUSTOM CLASSES */
+
+.destacado {
+    color: #004a79;
+    background-color: #c4caf3;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-top: 12px;
+}
+
+.destacado > p {
+    margin-top: 0;
+}
+
+.referencia {
+    font-style: italic;
+}
+
+.tab-text {
+    padding-left: 34px;
+}
